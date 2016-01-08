@@ -1,0 +1,29 @@
+//
+// Variables
+// --------------------------------------------------
+
+// font-family
+
+// 日本語
+$fontSansSerif: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+$fontSerif: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+// 英数
+$fontArial: Arial, Helvetica, sans-serif;
+
+// color
+$fontColor: #000;
+$keyColor: #000;
+$linkColor: #000;
+
+// font-size
+$rootFontSize: 62.5%;
+$fontSize: 14px;
+
+// line-hight
+$lineHeight : 1.8;
+
+$siteWidth : 960px;
+$shadow: 0 1px 3px rgba(0, 0, 0, .15);
+$animate-shadow: 0 2px 6px rgba(0, 0, 0, .26);
+$radius: 3px;
+$parts-height: 34px

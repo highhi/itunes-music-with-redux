@@ -1,0 +1,41 @@
+//
+// Reset
+// --------------------------------------------------
+
+@import "normalize";
+
+div,header,footer,article,section,figure,h1,h2,h3,h4,p,ul,ol,li,input,area,small,table,td,th,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	outline : none;
+}
+
+img {
+  vertical-align: top;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea,
+button {
+	border : none;
+}
+
+select {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+ul,ol {
+  list-style: none;
+}
+
+:focus {
+  outline: 0;
+}
