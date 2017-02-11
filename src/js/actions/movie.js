@@ -11,6 +11,8 @@ function requestItems(items) {
   };
 }
 
+console.log('はい');
+
 export function fetch(keyword) {
   const api = `https://itunes.apple.com/search?term=${encodeURIComponent(keyword)}&media=movie&country=jp&lang=ja_jp&callback=JSON_CALLBACK`;
 
